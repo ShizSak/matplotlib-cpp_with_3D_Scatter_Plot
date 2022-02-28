@@ -1,6 +1,6 @@
 # matplotlib-cpp-with-3D-Scatter-Plot
 
-matplotlib-cpp with 3D scatter plot is to add following two functions to matplotlib-cpp [https://github.com/lava/matplotlib-cpp], which is one of the simplest C++ plotting libraries.
+matplotlib-cpp with 3D scatter plot is a quick hack code to add following two functions to matplotlib-cpp [https://github.com/lava/matplotlib-cpp], which is one of the simplest C++ plotting libraries.
 ```cpp
   template<typename Numeric>
   void set_zlim(Numeric left, Numeric right);
