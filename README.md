@@ -1,6 +1,6 @@
 # matplotlib-cpp-with-3D-Scatter-Plot
 
-add following two functions:
+matplotlib-cpp with 3D scatter plot is to add following two functions to matplotlib-cpp [https://github.com/lava/matplotlib-cpp]:
 - template<typename Numeric>
   void set_zlim(Numeric left, Numeric right)
 - template<typename Numeric>
