@@ -37,4 +37,4 @@ main(int argc, char* argv[])
 }
 ````
 The scatter plot generated is below.
-(matplotlib-cpp-with-3D-scatter-plot-sample.png)
+(https://github.com/ShizSak/matplotlib-cpp-with-3D-Scatter-Plot/blob/main/matplotlib-cpp-with-3D-scatter-plot-sample.png)
