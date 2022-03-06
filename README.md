@@ -35,12 +35,17 @@ main(int argc, char* argv[])
   matplotlibcpp::set_zlim(0, 64);
   matplotlibcpp::show();
 }
-````
+```
 
 The scatter plot generated is below.
 
 ![scatter plot](https://github.com/ShizSak/matplotlib-cpp-with-3D-Scatter-Plot/blob/main/matplotlib-cpp-with-3D-scatter-plot-sample.png)
 
-If you'd like to use these functions, please patch the original matplotlib
+If you'd like to use these functions, please patch a diff file 'matplotlibcpp.h.diff' in this repository to the original file 'matplotlibcpp.h'.
+
+'''
+% patch -c matplotlib.cpp < matplotlibcpp.h.diff
+'''
+
 
 Enjoy!
