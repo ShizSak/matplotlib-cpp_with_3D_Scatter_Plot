@@ -9,7 +9,7 @@ matplotlib-cpp with 3D scatter plot is a quick hack code to add following two fu
                 const std::vector<Numeric> &y,
                 const std::vector<Numeric> &z,
                 const std::map<std::string, std::string> &keywords = std::map<std::string, std::string>());
-````
+```
 
 Here is a sample code using both funcions.
 ```cpp
@@ -43,9 +43,9 @@ The scatter plot generated is below.
 
 If you'd like to use these functions, please patch a diff file 'matplotlibcpp.h.diff' in this repository to the original file 'matplotlibcpp.h'.
 
-'''
+```
 % patch -c matplotlib.cpp < matplotlibcpp.h.diff
-'''
+```
 
 
 Enjoy!
