@@ -35,5 +35,6 @@ main(int argc, char* argv[])
   matplotlibcpp::set_zlim(0, 64);
   matplotlibcpp::show();
 }
-
 ````
+The scatter plot generated is below.
+(matplotlib-cpp-with-3D-scatter-plot-sample.png)
