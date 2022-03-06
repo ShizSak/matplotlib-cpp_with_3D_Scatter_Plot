@@ -36,8 +36,11 @@ main(int argc, char* argv[])
   matplotlibcpp::show();
 }
 ````
+
 The scatter plot generated is below.
 
 ![scatter plot](https://github.com/ShizSak/matplotlib-cpp-with-3D-Scatter-Plot/blob/main/matplotlib-cpp-with-3D-scatter-plot-sample.png)
+
+If you'd like to use these functions, please patch the original matplotlib
 
 Enjoy!
