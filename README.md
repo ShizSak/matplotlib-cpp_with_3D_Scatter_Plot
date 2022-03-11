@@ -39,7 +39,7 @@ main(int argc, char* argv[])
 
 The scatter plot generated is below.
 
-![scatter plot](https://github.com/ShizSak/matplotlib-cpp-with-3D-Scatter-Plot/blob/main/matplotlib-cpp-with-3D-scatter-plot-sample.png)
+![scatter plot](https://github.com/ShizSak/matplotlib-cpp_with_3D_Scatter_Plot/blob/main/matplotlib-cpp_with_3D_scatter_plot_sample.png)
 
 If you'd like to use these functions, please patch a diff file 'matplotlibcpp.h.diff' in this repository to the original file 'matplotlibcpp.h'.
 
