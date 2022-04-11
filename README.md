@@ -52,9 +52,13 @@ The 3D scatter plot generated is below.
 
 If you'd like to use these functions, please patch a diff file 'matplotlibcpp.h.diff' in this repository to the original file 'matplotlibcpp.h'.
 
+もしこれらの関数を利用されたいということであれば、もとの'matplotlibcpp.h'ファイルに対してここに置いてある差分ファイル'matplotlibcpp.h.diff'でパッチをあててください。
+
 ```
 % patch -c matplotlib.cpp < matplotlibcpp.h.diff
 ```
 
 
 Enjoy!
+
+それでは！
