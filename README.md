@@ -1,6 +1,10 @@
 # matplotlib-cpp_with_3D_Scatter_Plot
+# 3Dスキャッタプロットを備えたmatplotlib-cpp
 
 matplotlib-cpp with 3D scatter plot is a quick hack code to add following two functions to [matplotlib-cpp](https://github.com/lava/matplotlib-cpp), which is one of the simplest C++ plotting libraries.
+
+最も簡単なC++プロットライブラリのひとつである[matplotlib-cpp](https://github.com/lava/matplotlib-cpp)に、次の二つの関数を追加するクイックハックコードが、3Dスキャッタプットを備えたmatplotlib-cppです。
+
 ```cpp
   template<typename Numeric>
   void set_zlim(Numeric left, Numeric right);
@@ -12,6 +16,9 @@ matplotlib-cpp with 3D scatter plot is a quick hack code to add following two fu
 ```
 
 Here is a sample code using both funcions.
+
+両関数を用いるサンプルコードです。
+
 ```cpp
 #include <random>
 #include <matplotlibcpp.h>
@@ -37,7 +44,9 @@ main(int argc, char* argv[])
 }
 ```
 
-The scatter plot generated is below.
+The 3D scatter plot generated is below.
+
+生成した3Dスキャッタプロットが下です。
 
 ![scatter plot](https://github.com/ShizSak/matplotlib-cpp_with_3D_Scatter_Plot/blob/main/matplotlib-cpp-with-3D-scatter-plot-sample.png)
 
